@@ -17,7 +17,6 @@ class get_file:
         self.download_folder = download_folder
         self.dest_folder = dest_folder
 
-       
     def var_setup(self):
         download_link = "https://ontiva.com/en"
         page = requests.get(download_link, headers=headers)
@@ -56,12 +55,12 @@ class get_file:
         dest = shutil.move(files[-1], destination)
 
     def start_function(self):
-            self.var_setup()
-            self.link_input_field(driver)
-            self.start_now_button_presser(driver)
-            self.select_audio(driver)
-            self.download_button_clicker(driver)
-            self.file_move()
+        self.var_setup()
+        self.link_input_field(driver)
+        self.start_now_button_presser(driver)
+        self.select_audio(driver)
+        self.download_button_clicker(driver)
+        self.file_move()
 
 
 
