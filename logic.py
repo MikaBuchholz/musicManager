@@ -3,6 +3,7 @@ from os import curdir, remove, close
 from tkinter import Tk, StringVar, BooleanVar, mainloop
 
 
+
 class Logic():
     def __init__(self):
         self.root = Tk()
