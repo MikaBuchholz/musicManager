@@ -1,6 +1,7 @@
 from tkinter import Entry, Label, Checkbutton, mainloop, Button
 from logic import Logic
 
+
 class Interface(Logic):
     def __init__(self):
         super().__init__()
